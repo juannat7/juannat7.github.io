@@ -1,5 +1,5 @@
 ---
-title: "Chaosbench: A multi-channel, physics-based benchmark for subseasonal-to-seasonal climate prediction"
+title: "Chaosbench: A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-Seasonal Climate Prediction"
 collection: publications
 category: manuscripts
 permalink: /publication/chaosbench
