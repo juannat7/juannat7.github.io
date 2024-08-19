@@ -9,56 +9,58 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<!-- Education
+====== -->
+<h2 style="color:#87CEEB">Education</h2>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Columbia University | 2021-Present**   
+  * PhD in Earth and Environmental Engineering, 2026 (expected)
+  * MS in Earth and Environmental Engineering, 2022
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**National University of Singapore | 2015-2019**  
+  * BS in Environmental Science
+  * Graduated with First Class Honors
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<!-- Research experience
+====== -->
+<h2 style="color:#87CEEB">Research experience</h2>
+<hr>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Research Intern | 2023**   
+*IBM TJ Watson Research Center, NY*
+  * Research Topic: Efficient and Generalizable Representational Learning of Weather and Climate Data
+
+**Research Intern | 2022**   
+*IBM TJ Watson Research Center, NY*
+  * Research Topic: Physics-Informed Deep Learning of Climate Systems
+
+<!-- Publications
+====== -->
+<h2 style="color:#87CEEB">Publications</h2>
+<hr>
+
+**Deep Generative Data Assimilation in Multimodal Setting**   
+*__Juan Nathaniel\*__, Yongquan Qu\*, Shuolin Li, Pierre Gentine*   
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2024.   
+<span style="color:#AA4A44">Best Student Paper at CVPR Workshop on EarthVision</span>.
+
+**ChaosBench: A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-Seasonal Climate Prediction**   
+*__Juan Nathaniel__, Yongquan Qu, Tung Nguyen, Sungduk Yu, Julius Busecke, Aditya Grover, Pierre Gentine*   
+In Review, 2024.
+
+**MetaFlux: Meta-learning global carbon fluxes from sparse spatiotemporal observations**   
+*__Juan Nathaniel__, Jiangong Liu, Pierre Gentine*   
+Scientific Data, Nature Publishing, 2023.
+
+<!-- Honors and Awards
+====== -->
+<h2 style="color:#87CEEB">Honors and Awards</h2>
+<hr>
+
+**AI PhD Fellowship | 2023-2024**   
+*Columbia-Dream Sports AI Innovation Center*   
+Each year, 2-3 doctoral students who work in the field of AI are selected as PhD fellows. PhD fellows receive full funding for one academic year to pursue independent research projects.
+
+**ASEAN Undergraduate Scholarship | 2015-2019**   
+*National University of Singapore*   
+Merit-based full scholarship covering 4-year college tuition with stipend.
