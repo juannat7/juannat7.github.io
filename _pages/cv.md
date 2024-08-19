@@ -57,7 +57,7 @@ Scientific Data, Nature Publishing, 2023.
 <h2 style="color:#87CEEB">Honors and Awards</h2>
 <hr>
 
-**AI PhD Fellowship | 2023-2024**   
+**AI PhD Fellowship | 2024-2025**   
 *Columbia-Dream Sports AI Innovation Center*   
 Each year, 2-3 doctoral students who work in the field of AI are selected as PhD fellows. PhD fellows receive full funding for one academic year to pursue independent research projects.
 
