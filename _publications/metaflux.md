@@ -1,5 +1,5 @@
 ---
-title: "MetaFlux: Meta-learning global carbon fluxes from sparse spatiotemporal observations"
+title: "MetaFlux: Meta-learning Global Carbon Fluxes From Sparse Spatiotemporal Observations"
 collection: publications
 category: manuscripts
 permalink: /publication/metaflux
