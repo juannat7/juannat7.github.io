@@ -18,8 +18,7 @@ redirect_from:
   * MS in Earth and Environmental Engineering, 2022
 
 **National University of Singapore | 2015-2019**  
-  * BS in Environmental Science
-  * Graduated with First Class Honors
+  * BS in Environmental Science (Graduated with First Class Honors)
 
 <!-- Research experience
 ====== -->
@@ -27,11 +26,11 @@ redirect_from:
 <hr>
 
 **Research Intern | 2023**   
-*IBM TJ Watson Research Center, NY*
+*IBM T.J. Watson Research Center, NY*
   * Research Topic: Efficient and Generalizable Representational Learning of Weather and Climate Data
 
 **Research Intern | 2022**   
-*IBM TJ Watson Research Center, NY*
+*IBM T.J. Watson Research Center, NY*
   * Research Topic: Physics-Informed Deep Learning of Climate Systems
 
 <!-- Publications
@@ -48,7 +47,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops,
 *__Juan Nathaniel__, Yongquan Qu, Tung Nguyen, Sungduk Yu, Julius Busecke, Aditya Grover, Pierre Gentine*   
 In Review, 2024.
 
-**MetaFlux: Meta-learning global carbon fluxes from sparse spatiotemporal observations**   
+**MetaFlux: Meta-learning Global Carbon Fluxes From Sparse Spatiotemporal Observations**   
 *__Juan Nathaniel__, Jiangong Liu, Pierre Gentine*   
 Scientific Data, Nature Publishing, 2023.
 

@@ -1,5 +1,5 @@
 ---
-title: "Deep Generative Data Assimilation in Multimodal Setting"
+title: "Chaosbench: A multi-channel, physics-based benchmark for subseasonal-to-seasonal climate prediction"
 collection: publications
 category: manuscripts
 permalink: /publication/chaosbench
