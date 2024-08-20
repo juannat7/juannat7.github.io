@@ -33,24 +33,6 @@ redirect_from:
 *IBM T.J. Watson Research Center, NY*
   * Research Topic: Physics-Informed Deep Learning of Climate Systems
 
-<!-- Publications
-====== -->
-<h2 style="color:#87CEEB">Publications</h2>
-<hr>
-
-**ChaosBench: A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-Seasonal Climate Prediction**   
-*__Juan Nathaniel__, Yongquan Qu, Tung Nguyen, Sungduk Yu, Julius Busecke, Aditya Grover, Pierre Gentine*   
-In Review, 2024.
-
-**Deep Generative Data Assimilation in Multimodal Setting**   
-*__Juan Nathaniel\*__, Yongquan Qu\*, Shuolin Li, Pierre Gentine*   
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2024.   
-<span style="color:#AA4A44">Best Student Paper at CVPR Workshop on EarthVision</span>.
-
-**MetaFlux: Meta-learning Global Carbon Fluxes From Sparse Spatiotemporal Observations**   
-*__Juan Nathaniel__, Jiangong Liu, Pierre Gentine*   
-Scientific Data, Nature Publishing, 2023.
-
 <!-- Honors and Awards
 ====== -->
 <h2 style="color:#87CEEB">Honors and Awards</h2>
