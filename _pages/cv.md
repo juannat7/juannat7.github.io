@@ -22,7 +22,7 @@ redirect_from:
 
 <!-- Research experience
 ====== -->
-<h2 style="color:#87CEEB">Research experience</h2>
+<h2 style="color:#87CEEB">Research Experience</h2>
 <hr>
 
 **Research Intern | 2023**   
