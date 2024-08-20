@@ -3,7 +3,7 @@ title: "Chaosbench: A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-
 collection: publications
 category: manuscripts
 permalink: /publication/chaosbench
-venue: In Review
+venue: In Review, 2024
 authors: '<b>Juan Nathaniel</b>, Yongquan Qu, Tung Nguyen, Sungduk Yu, Julius Busecke, Aditya Grover, Pierre Gentine'
 paper: 'https://arxiv.org/abs/2402.00712'
 code: https://github.com/leap-stc/ChaosBench
