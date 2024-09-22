@@ -40,7 +40,7 @@ redirect_from:
 
 **AI PhD Fellowship | 2024-2025**   
 *Columbia-Dream Sports AI Innovation Center*   
-Each year, 2-3 doctoral students who work in the field of AI are selected as PhD fellows. PhD fellows receive full funding for one academic year to pursue independent research projects.
+2-3 doctoral students who work in the field of AI are selected as PhD fellows annually, receiving full funding for one academic year.
 
 **ASEAN Undergraduate Scholarship | 2015-2019**   
 *National University of Singapore*   
