@@ -1,7 +1,7 @@
 ---
 title: "Chaosbench: A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-Seasonal Climate Prediction"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/chaosbench
 venue: Advances in Neural Information Processing Systems 37 (NeurIPS), 2024
 award: Oral Presentation, D&B Track (Top 1%)

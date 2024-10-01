@@ -1,7 +1,7 @@
 ---
 title: "Deep Generative Data Assimilation in Multimodal Setting"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/slams
 venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2024
 award: Best Student Paper Award @ CVPR EarthVision Workshop 2024

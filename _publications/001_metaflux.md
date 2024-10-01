@@ -1,7 +1,7 @@
 ---
 title: "MetaFlux: Meta-learning Global Carbon Fluxes From Sparse Spatiotemporal Observations"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/metaflux
 venue: Scientific Data, Nature Publishing, 2023
 authors: '<b>Juan Nathaniel</b>, Jiangong Liu, Pierre Gentine'
