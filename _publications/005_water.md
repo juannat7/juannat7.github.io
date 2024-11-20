@@ -1,5 +1,5 @@
 ---
-title: "Inferring failure risk of on-site wastewater systems from physical and social factors"
+title: "Inferring Failure Risk of On-Site Wastewater Systems from Physical and Social Factors"
 collection: publications
 category: journal
 permalink: /publication/water
