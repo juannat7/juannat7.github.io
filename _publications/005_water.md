@@ -6,7 +6,7 @@ permalink: /publication/water
 venue: (Accepted) NPJ Clean Water, Nature Publishing, 2024
 authors: '<b>Juan Nathaniel</b>, Sara Schwetschenau, Upmanu Lall'
 paper: 
-code: 
+code: https://github.com/juannat7/bayesian_septic
 blog:
 slide:
 talk:
