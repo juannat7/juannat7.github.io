@@ -3,7 +3,7 @@ title: "Inferring Failure Risk of On-Site Wastewater Systems from Physical and S
 collection: publications
 category: journal
 permalink: /publication/water
-venue: (Accepted) NPJ Clean Water, Nature Publishing, 2024
+venue: npj Clean Water, Nature Publishing, 2024
 authors: '<b>Juan Nathaniel</b>, Sara Schwetschenau, Upmanu Lall'
 paper: https://www.nature.com/articles/s41545-024-00417-3
 code: https://github.com/juannat7/bayesian_septic
