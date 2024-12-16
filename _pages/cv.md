@@ -14,8 +14,8 @@ redirect_from:
 <h2 style="color:#87CEEB">Education</h2>
 
 **Columbia University | 2021-Present**   
-  * PhD in Earth and Environmental Engineering, 2026 (expected)
-  * MS in Earth and Environmental Engineering, 2022
+  * PhD in Earth and Environmental Engineering, 2023 -
+  * MS in Earth and Environmental Engineering, 2021 - 2023
 
 **National University of Singapore | 2015-2019**  
   * BS in Environmental Science (Graduated with First Class Honors)
