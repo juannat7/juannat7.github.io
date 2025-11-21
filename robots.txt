@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://juannat7.github.io/sitemap.xml
