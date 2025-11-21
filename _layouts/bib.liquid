@@ -29,7 +29,12 @@
         {%- if site.data.venues[entry.award_abbr] -%}
           {% assign award_style = null %}
           {% if site.data.venues[entry.award_abbr].color != blank %}
-            {% assign award_style = site.data.venues[entry.award_abbr].color | prepend: 'style="border-color: ' | append: '; color: ' | append: site.data.venues[entry.award_abbr].color | append: '; background-color: transparent;"' %}
+            {% assign award_style = site.data.venues[entry.award_abbr].color
+              | prepend: 'style="border-color: '
+              | append: '; color: '
+              | append: site.data.venues[entry.award_abbr].color
+              | append: '; background-color: transparent;"'
+            %}
           {%- else -%}
             {% assign award_style = 'style="background-color: transparent; border: 1px solid;"' %}
           {%- endif -%}
