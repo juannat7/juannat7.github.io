@@ -1,4 +1,32 @@
+@inproceedings{herdeanu2025causaldynamics,
+  abbr={NeurIPS},
+  title={CausalDynamics: A large-scale benchmark for structural discovery of dynamical causal models},
+  author={Herdeanu, Benjamin* and Nathaniel, Juan* and Roesch, Carla and Buch, Jatan and Ramien, Gregor and Haux, Johannes and Gentine, Pierre},
+  booktitle={Advances in Neural Information Processing Systems 38 (NeurIPS)},
+  year={2025},
+  code={https://github.com/kausable/CausalDynamics},
+  blog={https://kausable.github.io/CausalDynamics/README.html},
+  url={https://arxiv.org/abs/2505.16620},
+  pdf={https://arxiv.org/pdf/2505.16620.pdf},
+  abstract={Causal discovery for dynamical systems poses a major challenge in fields where active interventions are infeasible. Most methods used to investigate these systems and their associated benchmarks are tailored to deterministic, low-dimensional and weakly nonlinear time-series data. To address these limitations, we present CausalDynamics, a large-scale benchmark and extensible data generation framework to advance the structural discovery of dynamical causal models. Our benchmark consists of true causal graphs derived from thousands of both linearly and nonlinearly coupled ordinary and stochastic differential equations as well as two idealized climate models. We perform a comprehensive evaluation of state-of-the-art causal discovery algorithms for graph reconstruction on systems with noisy, confounded, and lagged dynamics. CausalDynamics consists of a plug-and-play, build-your-own coupling workflow that enables the construction of a hierarchy of physical systems. We anticipate that our framework will facilitate the development of robust causal discovery algorithms that are broadly applicable across domains while addressing their unique challenges.},
+  selected={true}
+}
+
+@article{nathaniel2025koopman,
+  abbr={Nat Comms Phys},
+  title={Deep Koopman operators for causal discovery},
+  author={Nathaniel, Juan* and Roesch, Carla* and Buch, Jatan and DeSantis, Derek and Rupe, Adam and Lamb, Kara D. and Gentine, Pierre},
+  journal={Communications Physics},
+  publisher={Nature Publishing},
+  year={2025},
+  url={https://www.nature.com/articles/s42005-025-02426-1},
+  code={https://github.com/juannat7/kausal},
+  abstract={Causal discovery aims to identify cause-effect mechanisms for better scientific understanding, explainable decision-making, and more accurate modeling. Standard statistical frameworks, such as Granger causality, lack the ability to quantify causal relationships in nonlinear dynamics due to the presence of complex feedback mechanisms, timescale mixing, and nonstationarity. Thus, applying these methods to study causal dynamics in real-world systems, such as the Earth, is a major challenge. Addressing this shortcoming, we leverage deep learning and a Koopman operator-theoretic formalism to present a class of causal discovery algorithms. Kausal uses deep Koopman operator methods to approximate nonlinear dynamics in a linearized vector space in which traditional causal inference methods such as Granger causality can be more easily applied. Our idealized experiments demonstrate Kausal's superior ability in discovering and characterizing causal signals compared to existing deep learning and non-deep learning state-of-the-art approaches. Finally, the successful identification of major El Niño and La Niña events in observations showcases Kausal's skill to handle real-world applications.},
+  selected={true}
+}
+
 @article{nathaniel2023metaflux,
+  abbr={Sci. Data},
   title={MetaFlux: Meta-learning Global Carbon Fluxes From Sparse Spatiotemporal Observations},
   author={Nathaniel, Juan and Liu, Jiangong and Gentine, Pierre},
   journal={Scientific Data},
@@ -6,51 +34,54 @@
   year={2023},
   url={https://www.nature.com/articles/s41597-023-02349-y},
   code={https://github.com/leap-stc/metaflux},
-  pdf={},
-  abstract={}
+  abstract={We provide a global, long-term carbon flux dataset of gross primary production and ecosystem respiration generated using meta-learning, called MetaFlux. The idea behind meta-learning stems from the need to learn efficiently given sparse data by learning how to learn broad features across tasks to better infer other poorly sampled ones. Using meta-trained ensemble of deep models, we generate global carbon products on daily and monthly timescales at a 0.25-degree spatial resolution from 2001 to 2021, through a combination of reanalysis and remote-sensing products. Site-level validation finds that MetaFlux ensembles have lower validation error by 5-7% compared to their non-meta-trained counterparts. In addition, they are more robust to extreme observations, with 4-24% lower errors. We also checked for seasonality, interannual variability, and correlation to solar-induced fluorescence of the upscaled product and found that MetaFlux outperformed other machine-learning based carbon product, especially in the tropics and semi-arids by 10-40%. Overall, MetaFlux can be used to study a wide range of biogeochemical processes.},
+  selected={true}
 }
 
 @inproceedings{qu2024slams,
+  abbr={CVPR EarthVision},
+  award_abbr={Best Paper},
   title={Deep Generative Data Assimilation in Multimodal Setting},
-  author={Qu, Yongquan and Nathaniel, Juan and Li, Shuolin and Gentine, Pierre},
+  author={Qu, Yongquan* and Nathaniel, Juan* and Li, Shuolin and Gentine, Pierre},
   booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
   year={2024},
   note={Best Student Paper Award @ CVPR EarthVision Workshop 2024},
-  url={https://arxiv.org/abs/2404.06665},
   code={https://github.com/yongquan-qu/SLAMS},
-  pdf={},
-  abstract={}
+  pdf={https://openaccess.thecvf.com/content/CVPR2024W/EarthVision/papers/Qu_Deep_Generative_Data_Assimilation_in_Multimodal_Setting_CVPRW_2024_paper.pdf},
+  abstract={Robust integration of physical knowledge and data is key to improve computational simulations such as Earth system models. Data assimilation is crucial for achieving this goal because it provides a systematic framework to calibrate model outputs with observations which can include remote sensing imagery and ground station measurements with uncertainty quantification. Conventional methods in- cluding Kalman filters and variational approaches inherently rely on simplifying linear and Gaussian assumptions and can be computationally expensive. Nevertheless with the rapid adoption of data-driven methods in many areas of computational sciences we see the potential of emulating traditional data assimilation with deep learning especially generative models. In particular the diffusion-based probabilistic framework has large overlaps with data assimilation principles: both allows for conditional generation of samples with a Bayesian inverse framework. These models have shown remarkable success in text-conditioned image generation or image-controlled video synthesis. Likewise one can frame data assimilation as observation-conditioned state calibration. In this work we propose SLAMS: Score-based Latent Assimilation in Multimodal Setting. Specifically we assimilate in-situ weather station data and ex-situ satellite imagery to calibrate the vertical temperature profiles globally. Through extensive ablation we demonstrate that SLAMS is robust even in low-resolution noisy and sparse data settings. To our knowledge our work is the first to apply deep generative framework for multimodal data assimilation using real-world datasets; an important step for building robust computational simulators including the next-generation Earth system models.},
+  selected={true}
 }
 
 @inproceedings{nathaniel2024chaosbench,
+  abbr={NeurIPS},
+  award_abbr={Oral},
   title={Chaosbench: A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-Seasonal Climate Prediction},
   author={Nathaniel, Juan and Qu, Yongquan and Nguyen, Tung and Yu, Sungduk and Busecke, Julius and Grover, Aditya and Gentine, Pierre},
   booktitle={Advances in Neural Information Processing Systems 37 (NeurIPS)},
   year={2024},
-  note={Oral, D\&B Track (Top 1\%)},
-  url={https://arxiv.org/abs/2402.00712},
   code={https://github.com/leap-stc/ChaosBench},
   blog={https://leap-stc.github.io/ChaosBench/README.html},
   slides={https://neurips.cc/media/neurips-2024/Slides/98017_1Xi20Bc.pdf},
   video={https://recorder-v3.slideslive.com/?share=94371&s=ba052cf1-457f-40f8-9858-85686e46ceb9},
-  pdf={},
-  abstract={},
+  pdf={https://proceedings.neurips.cc/paper_files/paper/2024/file/4d3684dd7926754b48bc6cd99a840232-Paper-Datasets_and_Benchmarks_Track.pdf},
+  abstract={Accurate prediction of climate in the subseasonal-to-seasonal scale is crucial for disaster preparedness and robust decision making amidst climate change. Yet, forecasting beyond the weather timescale is challenging because it deals with problems other than initial condition, including boundary interaction, butterfly effect, and our inherent lack of physical understanding. At present, existing benchmarks tend to have shorter forecasting range of up-to 15 days, do not include a wide range of operational baselines, and lack physics-based constraints for explainability. Thus, we propose ChaosBench, a challenging benchmark to extend the predictability range of data-driven weather emulators to S2S timescale. First, ChaosBench is comprised of variables beyond the typical surface-atmospheric ERA5 to also include ocean, ice, and land reanalysis products that span over 45 years to allow for full Earth system emulation that respects boundary conditions. We also propose physics-based, in addition to deterministic and probabilistic metrics, to ensure a physically-consistent ensemble that accounts for butterfly effect. Furthermore, we evaluate on a diverse set of physics-based forecasts from four national weather agencies as baselines to our data-driven counterpart such as ViT/ClimaX, PanguWeather, GraphCast, and FourCastNetV2. Overall, we find methods originally developed for weather-scale applications fail on S2S task: their performance simply collapse to an unskilled climatology. Nonetheless, we outline and demonstrate several strategies that can extend the predictability range of existing weather emulators, including the use of ensembles, robust control of error propagation, and the use of physics-informed models. Our benchmark, datasets, and instructions are available at https://leap-stc.github.io/ChaosBench.},
   selected={true}
 }
 
 @article{kim2024pco2,
+  abbr={Sci. Data},
   title={Spatiotemporal Upscaling of Sparse Air-Sea pCO2 Data via Physics-Informed Transfer Learning},
-  author={Kim, Siyeon and Nathaniel, Juan and Hou, Zhewen and Zheng, Tian and Gentine, Pierre},
+  author={Kim, Siyeon* and Nathaniel, Juan* and Hou, Zhewen and Zheng, Tian and Gentine, Pierre},
   journal={Scientific Data},
   publisher={Nature Publishing},
   year={2024},
   url={https://www.nature.com/articles/s41597-024-03959-w},
   code={https://github.com/sk981102/ocean_co2/},
-  pdf={},
-  abstract={}
+  abstract={Global measurements of ocean pCO2 are critical to monitor and understand changes in the global carbon cycle. However, pCO2 observations remain sparse as they are mostly collected on opportunistic ship tracks. Several approaches, especially based on direct learning, have been used to upscale and extrapolate sparse point data to dense estimates using globally available input features. However, these estimates tend to exhibit spatially heterogeneous performance. As a result, we propose a physics-informed transfer learning workflow to generate dense pCO2 estimates that are grounded in real-world measurements and remain physically consistent. The models are initially trained on dense input predictors against pCO2 estimates from Earth system model simulation, and then fine-tuned to sparse SOCAT observational data. Compared to the benchmark direct learning approach, our transfer learning framework shows major improvements of up to 56-92%. Furthermore, we demonstrate that using models that explicitly account for spatiotemporal structures in the data yield better validation performances by 50-68%. Our strategy thus presents a new monthly global pCO2 estimate that spans for 35 years between 1982-2017.}
 }
 
 @article{nathaniel2024water,
+  abbr={npj Clean Water},
   title={Inferring Failure Risk of On-Site Wastewater Systems from Physical and Social Factors},
   author={Nathaniel, Juan and Schwetschenau, Sara and Lall, Upmanu},
   journal={npj Clean Water},
@@ -58,6 +89,19 @@
   year={2024},
   url={https://www.nature.com/articles/s41545-024-00417-3},
   code={https://github.com/juannat7/bayesian_septic},
-  pdf={},
-  abstract={}
+  abstract={Aging infrastructure and climate change present emerging challenges for clean water supply and reliable wastewater services for communities in the United States (US). In Georgia, for example, the failure rates of on-site wastewater systems (OWTS) have increased from 10% to 35% in the last two decades as the systems age. In this work, we develop a hierarchical Bayesian model to understand the different contributions of physical and social factors driving OWTS failures using a long-term collection of 201,000 Georgia's OWTS inspection records. The out-of-sample validation accuracy of our hierarchical Bayesian model is 70% within Georgia, outperforming other machine learning models that do not consider the multiscale nature of the problem. Overall, we find counties that experience more extreme precipitation and are situated in steeper-sloped regions are significantly associated with increased failure risks. Uncertainties, meanwhile, are largely associated with counties experiencing more precipitation and have lower median housing value.}
+}
+
+@article{nathaniel2026generative,
+  abbr={CMAME},
+  title={Generative emulation of chaotic dynamics with coherent prior},
+  author={Nathaniel, Juan and Gentine, Pierre},
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  volume={448},
+  pages={118410},
+  year={2026},
+  publisher={Elsevier},
+  url={https://www.sciencedirect.com/science/article/pii/S0045782525006826},
+  code={https://github.com/juannat7/cohesion},
+  abstract={Data-driven emulation of nonlinear dynamics is challenging due to long-range skill decay that often produces physically unrealistic outputs. Recent advances in generative modeling aim to address these issues by providing uncertainty quantification and correction. However, the quality of generated simulation remains heavily dependent on the choice of conditioning prior. In this work, we present an efficient generative framework for nonlinear dynamics emulation, connecting principles of turbulence with diffusion-based modeling: Cohesion. Our method estimates large-scale coherent structure of the underlying dynamics as guidance during the denoising process, where small-scale fluctuation in the flow is then resolved. These coherent prior are efficiently approximated using reduced-order models, such as deep Koopman operators, that allow for rapid generation of long prior sequences while maintaining stability over extended forecasting horizon. With this gain, we can reframe forecasting as trajectory planning, a common task in reinforcement learning, where conditional denoising is performed once over entire sequences, minimizing the computational cost of autoregressive-based generative methods. Numerical evaluations on chaotic systems of increasing complexity, including Kolmogorov flow, shallow water equations, and subseasonal-to-seasonal climate dynamics, demonstrate Cohesion superior long-range forecasting skill that can efficiently generate physically-consistent simulations, even in the presence of partially-observed guidance.}
 }

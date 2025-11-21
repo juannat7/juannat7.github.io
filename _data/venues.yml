@@ -1,9 +1,17 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"NeurIPS":
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"CVPR EarthVision":
+  color: "#2E7D32"
 
-"Vision":
-  color: "#009f36"
+"Sci Data":
+  color: "#FF6B6B"
+
+"npj Clean Water":
+  color: "#FF6B6B"
+
+"Nat Comms Phys":
+  color: "#FF6B6B"
+
+"CMAME":
+  color: "#FF6B6B"

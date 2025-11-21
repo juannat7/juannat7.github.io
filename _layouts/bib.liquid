@@ -25,6 +25,30 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
+      {%- if entry.award_abbr -%}
+        {%- if site.data.venues[entry.award_abbr] -%}
+          {% assign award_style = null %}
+          {% if site.data.venues[entry.award_abbr].color != blank %}
+            {% assign award_style = site.data.venues[entry.award_abbr].color | prepend: 'style="border-color: ' | append: '; color: ' | append: site.data.venues[entry.award_abbr].color | append: '; background-color: transparent;"' %}
+          {%- else -%}
+            {% assign award_style = 'style="background-color: transparent; border: 1px solid;"' %}
+          {%- endif -%}
+          <abbr
+            class="badge rounded w-100 mt-1 award-badge"
+            {% if award_style %}
+              {{ award_style }}
+            {% endif -%}
+          >
+            {% if site.data.venues[entry.award_abbr].url %}
+              <a href="{{ site.data.venues[entry.award_abbr].url }}">{{ entry.award_abbr }}</a>
+            {% else %}
+              <div>{{- entry.award_abbr -}}</div>
+            {% endif %}
+          </abbr>
+        {% else %}
+          <abbr class="badge rounded w-100 mt-1 award-badge" style="background-color: transparent; border: 1px solid;">{{ entry.award_abbr }}</abbr>
+        {% endif %}
+      {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
