@@ -2,11 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+[EAEE 2100, A Better Planet by Design](https://scienceandsociety.columbia.edu/content/e2100-better-planet-design-u-lall/): Teaching Assistant, Fall 2025
 
-Organize your courses by years, topics, or universities, however you like!
+[EAEE 4000, Machine Learning for Environmental Engineering and Science](https://doc.sis.columbia.edu/subj/EAEE/E4000-20233-001/): Teaching Assistant, Fall 2024

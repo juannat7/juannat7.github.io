@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student at <a href='https://www.columbia.edu'>Columbia University</a>
+subtitle:
 
 profile:
   align: right
   image: Juan.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Earth and Environmental Engineering</p>
     <p>Columbia University</p>
     <p>New York, NY</p>
 
@@ -27,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student at Columbia University advised by Pierre Gentine. Before my PhD, I obtained my undergraduate degree at the National University of Singapore (NUS).
+I'm a PhD student at Columbia University advised by Pierre Gentine. Before my PhD, I obtained my undergraduate degree at the National University of Singapore (NUS). Aside from research, I greatly enjoy detective and science fiction works by Agatha Christie, Isaac Asimov, and Jules Verne among many others!
 
-My research interest lies in the intersection of chaotic systems and their predictability, generative/probabilistic modeling, and deep data assimilation.
+I'm always open to new collaboration and research ideas! Feel free to reach out if my research could be of use for potential followups.
 
-Aside from research, I greatly enjoy detective and science fiction works by Agatha Christie, Isaac Asimov, and Jules Verne among many others!
+**Research**: My research interest lies in the intersection of chaotic systems and their predictability, generative/probabilistic modeling, and incorporating causal structures to build a true Earth's digital twin capable of counterfactual reasoning.
