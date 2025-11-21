@@ -42,16 +42,23 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-started-my-internship-at-ibm-research-on-the-future-of-climate-team",
+          title: 'Started my internship at IBM Research on the Future of Climate team.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-honored-to-receive-the-best-student-award-from-cvpr-earthvision-workhop",
+          title: 'Honored to receive the Best Student Award from CVPR EarthVision Workhop.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-selected-as-columbia-dream-sports-ai-phd-fellow",
+          title: 'Selected as Columbia-Dream Sports AI PhD Fellow.',
+          description: "",
+          section: "News",},{id: "news-we-will-present-chaosbench-as-an-oral-presentation-at-neurips-2024-see-you-in-vancouver",
+          title: 'We will present ChaosBench as an Oral presentation at NeurIPS 2024, see you...',
+          description: "",
+          section: "News",},{id: "news-deep-koopman-operators-for-causal-discovery-is-accepted-to-nature-communications-physics",
+          title: 'Deep Koopman operators for causal discovery is accepted to Nature Communications Physics.',
+          description: "",
+          section: "News",},{id: "news-causaldynamics-is-accepted-to-neurips-2025-see-you-in-san-diego",
+          title: 'CausalDynamics is accepted to NeurIPS 2025, see you in San Diego.',
           description: "",
           section: "News",},{
         id: 'social-email',
