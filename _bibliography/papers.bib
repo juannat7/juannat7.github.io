@@ -56,18 +56,6 @@
   selected={true}
 }
 
-@inproceedings{qu2024slams,
-  abbr={Workshop},
-  title={Deep Generative Data Assimilation in Multimodal Setting},
-  author={Qu*, Yongquan and Nathaniel*, Juan and Li, Shuolin and Gentine, Pierre},
-  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-  year={2024},
-  note={Best Student Paper Award @ CVPR EarthVision Workshop 2024},
-  code={https://github.com/yongquan-qu/SLAMS},
-  pdf={https://openaccess.thecvf.com/content/CVPR2024W/EarthVision/papers/Qu_Deep_Generative_Data_Assimilation_in_Multimodal_Setting_CVPRW_2024_paper.pdf},
-  abstract={Robust integration of physical knowledge and data is key to improve computational simulations such as Earth system models. Data assimilation is crucial for achieving this goal because it provides a systematic framework to calibrate model outputs with observations which can include remote sensing imagery and ground station measurements with uncertainty quantification. Conventional methods in- cluding Kalman filters and variational approaches inherently rely on simplifying linear and Gaussian assumptions and can be computationally expensive. Nevertheless with the rapid adoption of data-driven methods in many areas of computational sciences we see the potential of emulating traditional data assimilation with deep learning especially generative models. In particular the diffusion-based probabilistic framework has large overlaps with data assimilation principles: both allows for conditional generation of samples with a Bayesian inverse framework. These models have shown remarkable success in text-conditioned image generation or image-controlled video synthesis. Likewise one can frame data assimilation as observation-conditioned state calibration. In this work we propose SLAMS: Score-based Latent Assimilation in Multimodal Setting. Specifically we assimilate in-situ weather station data and ex-situ satellite imagery to calibrate the vertical temperature profiles globally. Through extensive ablation we demonstrate that SLAMS is robust even in low-resolution noisy and sparse data settings. To our knowledge our work is the first to apply deep generative framework for multimodal data assimilation using real-world datasets; an important step for building robust computational simulators including the next-generation Earth system models.},
-  selected={true}
-}
 
 @article{nathaniel2024water,
   abbr={npj Clean Water},
@@ -93,6 +81,18 @@
   abstract={Global measurements of ocean pCO2 are critical to monitor and understand changes in the global carbon cycle. However, pCO2 observations remain sparse as they are mostly collected on opportunistic ship tracks. Several approaches, especially based on direct learning, have been used to upscale and extrapolate sparse point data to dense estimates using globally available input features. However, these estimates tend to exhibit spatially heterogeneous performance. As a result, we propose a physics-informed transfer learning workflow to generate dense pCO2 estimates that are grounded in real-world measurements and remain physically consistent. The models are initially trained on dense input predictors against pCO2 estimates from Earth system model simulation, and then fine-tuned to sparse SOCAT observational data. Compared to the benchmark direct learning approach, our transfer learning framework shows major improvements of up to 56-92%. Furthermore, we demonstrate that using models that explicitly account for spatiotemporal structures in the data yield better validation performances by 50-68%. Our strategy thus presents a new monthly global pCO2 estimate that spans for 35 years between 1982-2017.}
 }
 
+@inproceedings{qu2024slams,
+  abbr={Workshop},
+  title={Deep Generative Data Assimilation in Multimodal Setting},
+  author={Qu*, Yongquan and Nathaniel*, Juan and Li, Shuolin and Gentine, Pierre},
+  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  year={2024},
+  note={Best Student Paper Award @ CVPR EarthVision Workshop 2024},
+  code={https://github.com/yongquan-qu/SLAMS},
+  pdf={https://openaccess.thecvf.com/content/CVPR2024W/EarthVision/papers/Qu_Deep_Generative_Data_Assimilation_in_Multimodal_Setting_CVPRW_2024_paper.pdf},
+  abstract={Robust integration of physical knowledge and data is key to improve computational simulations such as Earth system models. Data assimilation is crucial for achieving this goal because it provides a systematic framework to calibrate model outputs with observations which can include remote sensing imagery and ground station measurements with uncertainty quantification. Conventional methods in- cluding Kalman filters and variational approaches inherently rely on simplifying linear and Gaussian assumptions and can be computationally expensive. Nevertheless with the rapid adoption of data-driven methods in many areas of computational sciences we see the potential of emulating traditional data assimilation with deep learning especially generative models. In particular the diffusion-based probabilistic framework has large overlaps with data assimilation principles: both allows for conditional generation of samples with a Bayesian inverse framework. These models have shown remarkable success in text-conditioned image generation or image-controlled video synthesis. Likewise one can frame data assimilation as observation-conditioned state calibration. In this work we propose SLAMS: Score-based Latent Assimilation in Multimodal Setting. Specifically we assimilate in-situ weather station data and ex-situ satellite imagery to calibrate the vertical temperature profiles globally. Through extensive ablation we demonstrate that SLAMS is robust even in low-resolution noisy and sparse data settings. To our knowledge our work is the first to apply deep generative framework for multimodal data assimilation using real-world datasets; an important step for building robust computational simulators including the next-generation Earth system models.},
+  selected={true}
+}
 
 @article{nathaniel2023metaflux,
   abbr={Sci. Data},
