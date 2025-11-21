@@ -1,5 +1,10 @@
+# Default color for all journals (can be overridden below)
+default_journal_color: "#00369f"
+
+# Conference-specific colors
 "NeurIPS":
-  color: "#00369f"
+  color: "#820000"
+  url: https://neurips.cc/
 
 "Workshop":
   color: "#2E7D32"
