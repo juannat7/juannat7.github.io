@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Deep Koopman operators for causal discovery is accepted to Nature Communications Physics.
+Deep Koopman operators for causal discovery is accepted to Communications Physics.
