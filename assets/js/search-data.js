@@ -60,6 +60,12 @@ ninja.data = [{
           section: "News",},{id: "news-causaldynamics-is-accepted-to-neurips-2025-see-you-in-san-diego",
           title: 'CausalDynamics is accepted to NeurIPS 2025, see you in San Diego.',
           description: "",
+          section: "News",},{id: "news-honored-to-receive-the-best-paper-award-at-the-icml-2026-workshop-on-ai4physics",
+          title: 'Honored to receive the Best Paper Award at the ICML 2026 Workshop on...',
+          description: "",
+          section: "News",},{id: "news-our-papers-on-in-context-learning-for-critical-transitions-and-wavelet-flow-matching-have-been-accepted-to-neurips-2026",
+          title: 'Our papers on in-context learning for critical transitions and wavelet flow matching have...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
