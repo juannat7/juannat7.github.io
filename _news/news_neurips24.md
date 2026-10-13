@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We will present ChaosBench as an **Oral presentation** at NeurIPS 2024, see you in Vancouver.
+We will present [ChaosBench](https://leap-stc.github.io/ChaosBench/README.html) as an **Oral presentation** at NeurIPS 2024, see you in Vancouver.

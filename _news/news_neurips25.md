@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-CausalDynamics is accepted to NeurIPS 2025, see you in San Diego.
+[CausalDynamics](https://arxiv.org/abs/2505.16620) is accepted to NeurIPS 2025, see you in San Diego.
