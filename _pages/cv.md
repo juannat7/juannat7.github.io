@@ -1,11 +1,12 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: resume_juan.pdf # you can also use external links here
+nav_link: /assets/pdf/resume_juan.pdf
+redirect: /assets/pdf/resume_juan.pdf
 description:
-toc:
-  sidebar: left
 ---
+
+[Open my CV (PDF)]({{ '/assets/pdf/resume_juan.pdf' | relative_url }})

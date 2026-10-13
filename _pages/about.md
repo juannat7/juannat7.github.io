@@ -28,6 +28,6 @@ latest_posts:
 
 I'm a PhD student at Columbia University advised by [Pierre Gentine](https://gentinelab.eee.columbia.edu/home). Before my PhD, I obtained my undergraduate degree at the National University of Singapore (NUS).
 
-**Research**: My research interest lies in the intersection of chaotic systems and their predictability, generative/probabilistic modeling, and incorporating causal structures to build a true Earth's digital twin capable of counterfactual reasoning.
+**Research**: My research combines machine learning and dynamical systems theory to extend climate predictability, particularly on subseasonal-to-seasonal (S2S) timescales. I also investigate the coupled processes underlying climate extremes and tipping points, and how these processes respond to interventions and unseen forcings.
 
 I'm always open to new collaboration and research ideas! Feel free to reach out if my research could be of use for potential followups.
